@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('Helvetica.ttf');
+  font-style: bold;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Helvetica', sans-serif;
+}
+
+body {
+  padding: 0px 5%;
+}

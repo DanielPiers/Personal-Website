@@ -1,0 +1,62 @@
+.error404, .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error404 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 50%;
+    max-height: 50%;
+    overflow: auto;
+}
+
+.error404 h1 {
+    font-size: 40px;
+}
+
+#refresh {
+    border-radius: 20px;
+    padding: 15px 70px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#refresh:hover {
+    cursor: pointer;
+}
+
+.error404 p, .copyright p {
+    font-size: 16px;
+    padding: 20px;
+}
+.copyright p {
+    color: grey;
+    position: absolute;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .error404 {
+        max-width: 100%;
+        max-height: 50%;
+    }
+    .error404 h1 {
+        font-size: 26px;
+    }
+
+    .error404 p, .copyright p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
